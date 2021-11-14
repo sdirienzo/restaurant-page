@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 64px;
+    box-shadow: 0 0 5px grey;
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #ddaa44;
+}
+
+#home {
+    cursor: pointer;
+}
+
+#menu {
+    cursor: pointer;
+}
+
+#contact {
+    cursor: pointer;
+}
