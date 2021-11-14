@@ -1,6 +1,7 @@
 import { pageLoad } from './page-load.js';
 import { generateHomePage } from './homepage.js';
 import { generateMenuPage } from './menupage.js';
+import { generateContactPage } from './contactpage.js';
 
 pageLoad();
 
@@ -17,6 +18,7 @@ const switchTab = (tab) => {
             generateMenuPage(content);
             break;
         case 'contact':
+            generateContactPage(content);
             break;
         default:
             break;

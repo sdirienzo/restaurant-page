@@ -1,5 +1,5 @@
-import { generateHomePage } from './homepage.js';
 import { generateNavBar } from './navbar.js';
+import { generateHomePage } from './homepage.js';
 
 const pageLoad = () => {
     const container = document.getElementById('content');
